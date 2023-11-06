@@ -19,7 +19,6 @@ const config: StorybookConfig = {
     if(configType === 'PRODUCTION'){
       config.base = '/form-design-system/'
     }
-
     return config
   }
 };
